@@ -1,0 +1,43 @@
+#box {
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+}
+#list {
+    border: 2px solid black;
+    position: absolute;
+    overflow: auto;
+    height: 500px; 
+    width: 270px;
+    top: 120px;
+}
+#details {
+    border: 2px solid black;
+    position: absolute;
+    overflow: auto;
+    margin-left: 274px;
+    height: 300px;
+    width: 750px;
+    top: 120px;
+}
+#oneorder {
+    border: 2px solid black;
+    position: absolute;
+    /* margin-left: 273px;
+    margin-top: 302px; */
+    height: 198px;
+    width: 436px;
+    top: 422px;
+    left: 281px;
+}
+#total {
+    position: absolute;
+    top: 595px;
+    left: 287px;
+}
+.name {
+    cursor: pointer;
+}
+.order {
+    cursor: pointer;
+}
